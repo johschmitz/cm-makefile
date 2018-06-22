@@ -8,7 +8,7 @@ This document describes how to install tools required by CM-Makefile.
 
 The toolchain can be installed from Ubuntu repository:
 
-	sudo apt-get install gcc-arm-embedded openocd
+	sudo apt-get install gcc-arm-none-eabi libnewlib-arm-none-eabi openocd
 
 It is also possible to download a specific version of the toolchain directly
 from the [website][1]. In this case, it might be necessary to obtain 32-bit
